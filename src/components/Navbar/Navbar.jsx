@@ -24,11 +24,11 @@ function Navbar() {
               {/* <div className="text-bgColor1 cursive font-extrabold text-[27px] underline">
                 ADEYEYE
               </div> */}
-                <img
-                  className="rounded-[10px] h-[80px] w-[70px]"
-                  src="./EA-logo1.png"
-                  alt="project-one"
-                />
+              <img
+                className="rounded-[10px] h-[70px] w-[60px]"
+                src="./logo513.png"
+                alt="project-one"
+              />
             </a>
 
             <IoCloseSharp
@@ -78,11 +78,11 @@ function Navbar() {
         {/* <div className="text-white cursive font-extrabold text-[27px] underline lg:text-[45px]">
           ADEYEYE
         </div> */}
-         <img
-                  className="rounded-[10px] h-[100px] w-[90px] lg:w-[130px] lg:h-[140px]"
-                  src="./logo192.png"
-                  alt="project-one"
-                />
+        <img
+          className="rounded-[10px] h-[100px] w-[90px] lg:w-[130px] lg:h-[140px]"
+          src="./logo513.png"
+          alt="project-one"
+        />
         <GiHamburgerMenu
           onClick={openSideBar}
           className="text-textColor h-[30px] w-[30px] md:hidden"
@@ -91,16 +91,28 @@ function Navbar() {
           <li className=" flex items-center text-[25px]  hover:underline">
             <a href="#about">About</a>
           </li>
-          <li onClick={closeSideBAr} className="flex items-center text-[25px] hover:underline">
+          <li
+            onClick={closeSideBAr}
+            className="flex items-center text-[25px] hover:underline"
+          >
             <a href="#skills"> Skills</a>
           </li>
-          <li onClick={closeSideBAr} className="flex items-center text-[25px] hover:underline">
+          <li
+            onClick={closeSideBAr}
+            className="flex items-center text-[25px] hover:underline"
+          >
             <a href="#experience">Experience</a>
           </li>
-          <li onClick={closeSideBAr} className="flex items-center text-[25px] hover:underline">
+          <li
+            onClick={closeSideBAr}
+            className="flex items-center text-[25px] hover:underline"
+          >
             <a href="#work">Work</a>
           </li>
-          <li onClick={closeSideBAr} className="flex items-center text-[25px] hover:underline">
+          <li
+            onClick={closeSideBAr}
+            className="flex items-center text-[25px] hover:underline"
+          >
             <a href="#contact">Contact</a>
           </li>
         </ul>

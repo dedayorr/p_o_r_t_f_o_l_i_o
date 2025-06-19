@@ -38,13 +38,14 @@ function Page() {
           {" "}
           <div className="text-textColor">
             <h1 className="text-textColor font-semibold text-[36px] lg:text-[50px]">
-              Hi, I'm Elijah &#128075;
+              Hi, I'm Olayinka &#128075;
             </h1>
             <p className="text-[] text-justify lg:text-[20px]">
-              I'm a Front-end Developer specializing in creating interactive
-              digital experiences. My focus is on developing high-quality
-              websites and web applications that are visually appealing,
-              user-friendly, and accessible. I'm a Cybersecurity enthusiast.
+              A passionate web developer with a growing focus on frontend
+              technologies. I enjoy building clean, user-focused digital
+              experiences using tools like HTML, CSS, JavaScript, React, and
+              WordPress. I am driven by growth, purpose, and a desire to use
+              tech to empower people and transform ideas into reality
             </p>
             <div className="flex flex-col gap-[5px] mt-[10%] lg:text-[18px] lg:font-thin">
               <div className="flex items-center gap-[10px]">
@@ -63,7 +64,7 @@ function Page() {
             </a>
             <a
               className=""
-              href="https://www.linkedin.com/in/elijah-adeyeye-software-developer/"
+              href="https://ng.linkedin.com/in/aliu-oluwabunmi-42ab00235"
             >
               <FaLinkedin />
             </a>
@@ -75,7 +76,7 @@ function Page() {
 
       <div
         id="about"
-        className="bg-[#111827] py-[60px] text-textColor px-[16px] text-justify lg:px-[6%]"
+        className="bg-[#fff] py-[60px] text- px-[16px] text-justify lg:px-[6%]"
       >
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           About me
@@ -130,6 +131,14 @@ function Page() {
           The skills, tools and technologies I am good at:
         </p>
         <div className="grid grid-cols-3 gap-[10%] lg:grid-cols-5 lg:gap-[17%]">
+          <div className="items-center flex flex-col justify-center gap-3">
+            <img className="w-[64px] h-[64px]" src="./HTML5.png" alt="Html" />
+            <p>HTML</p>
+          </div>
+          <div className="items-center flex flex-col justify-center gap-3">
+            <img className="w-[64px] h-[64px]" src="./CSS.png" alt="Css" />
+            <p>CSS</p>
+          </div>
           <div className="items-center flex flex-col justify-center gap-3">
             <img
               className="w-[64px] h-[64px]"
@@ -220,7 +229,7 @@ function Page() {
       {/* ==========Section Four============= */}
       <div
         id="experience"
-        className="bg-[#111827] py-[60px] text-textColor px-[16px] text-justify flex flex-col gap-[20px]"
+        className="bg-[#fff] py-[60px] text-textColor px-[16px] text-justify flex flex-col gap-[20px]"
       >
         {" "}
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
@@ -353,40 +362,30 @@ function Page() {
         <div className="lg:mx-[5%] ">
           <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
-              <a
-                href="https://www.therentree.com"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://www.iksha.ng/" target="_blank" rel="noreferrer">
                 {" "}
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
-                  src="./front-page.png"
+                  src="./iksha.png"
                   alt="project-one"
                 />
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                RENTREE
-              </p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">Iksha</p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
-                Rentree is a modern booking platform designed to streamline
-                short-term rentals and cruise bookings. It features two user
-                roles: Buyers, who can browse listings, make reservations, and
-                complete secure payments; and Sellers, who can upload and manage
-                their properties—whether apartments, hotels, or boat cruises.
-                The platform also includes a Marketplace section, allowing users
-                to advertise various products such as food, gadgets, fashion
-                items, and more. Rentree offers a seamless experience for both
-                travelers and business owners in the hospitality space.
+                Iksha is a fast-growing tech school focused on equipping
+                beginners and professionals with digital skills in areas like
+                web development, design, and data. They needed a professional
+                and functional website to represent their brand, attract
+                students, and manage program registrations online.
               </p>
               <div className="flex flex-wrap gap-[15px]">
                 {" "}
                 <p className=" text-textColor bg-[#374151] px-1 h-[28px] rounded-[12px] flex justify-center items-center">
-                  React + Typescript + Vite
+                  WORDPRESS
                 </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                {/* <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   Tailwind css
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
@@ -394,10 +393,10 @@ function Page() {
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   Redux Toolkit
-                </p>
+                </p> */}
               </div>
               <a
-                href="https://www.therentree.com"
+                href="https://www.iksha.ng/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline flex items-center gap-[10px] justify-center"
@@ -409,41 +408,43 @@ function Page() {
           </div>
           <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
-              <a href="https://gailymaids.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://crayondevelopment.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <img
                   className="rounded-[10px] lg:rounded-[20px]"
-                  src="./gailymaids.png"
+                  src="./crayon.png"
                   alt="project-two"
                 />
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
               <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Gaily Maids
+                Crayon Development
               </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
-                An all-encompassing cleaning service platform designed to
-                provide exceptional cleaning solutions for residential,
-                commercial, and industrial clients. Our website serves as a
-                one-stop destination for booking professional cleaning services,
-                ensuring a sparkling clean environment for homes, offices, and
-                other spaces.
+                Crayon Development is a real estate company focused on providing
+                innovative, modern housing solutions in Nigeria. The brand
+                needed a functional and visually appealing website to showcase
+                its properties, build credibility, and generate client leads.
               </p>
               <div className="flex flex-wrap gap-[15px]">
                 {" "}
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Next.Js
+                  WORDPRESS
                 </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+                {/* <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   Tailwind css
                 </p>
                 <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
                   EmailJs
-                </p>
+                </p> */}
               </div>
               <a
-                href=" https://gailymaids.com"
+                href=" https://crayondevelopment.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline flex items-center gap-[10px] justify-center"
@@ -453,302 +454,14 @@ function Page() {
               </a>
             </div>
           </div>
-
           <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://multi-enterprise.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./aremxyplug.png"
-                  alt="project-three"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                AremxyPlug
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                AremxyPlug is a business enterprise and telecommunication
-                service provider that offers individuals and businesses full
-                access to quick, secure, and dependable solutions for their
-                digital and telecommunication service needs.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  React
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwind css
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Context Api
-                </p>
-              </div>
-              <a
-                href="https://multi-enterprise.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
-
-          <br />
-          <div className="bg-[#1F2937] lg:flex">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://prismatic-entremet-275fdf.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./blogify.png"
-                  alt="project-four"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Blogify
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                An app that contains blogs and section to add blogs. Has a Store
-                to buy books with integration of flutterwave to make payment.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  React
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwind css
-                </p>
-              </div>
-              <a
-                href="https://prismatic-entremet-275fdf.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
-
-          <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://renttreeapp.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./rentree.png"
-                  alt="project-five"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Rentree Advertising
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                A landing page conveying information about Rentree. Rentree is
-                your go-to platform for booking hotels and renting apartments in
-                Lagos for all your needs—whether it&apos;s a lodge, a getaway, a
-                party, or any special event. We also offer boats for water
-                voyages, ensuring your experience is seamless and memorable.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  React
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwindcss
-                </p>
-              </div>
-              <a
-                href="https://renttreeapp.com"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
-
-          <br />
-          <div className="bg-[#1F2937] lg:flex ">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://d-gadgets-store.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./d-gadget.png"
-                  alt="project-five"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                D-gadget
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                An e-commerce site to buy gadgets, customers are able to
-                navigate through different gadgets and then add items to cart as
-                well as remove items from cart. Purchase is made possible with
-                the integration of flutterwave.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Html
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Css
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Javascript
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Tailwindcss
-                </p>
-              </div>
-              <a
-                href="https://d-gadgets-store.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
-
-          <br />
-          <div className="bg-[#1F2937] lg:flex lg:flex-row-reverse">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://purple-web.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./purple.png"
-                  alt="project-six"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Purple
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                A single page website template.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Html
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Css
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Javascript
-                </p>
-              </div>
-              <a
-                href="https://purple-web.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
-
-          <br />
-          <div className="bg-[#1F2937] lg:flex">
-            <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
-              <a
-                href="https://smart-invest-hub.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <img
-                  className="rounded-[10px]"
-                  src="./smarthubinvest.png"
-                  alt="project-eight"
-                />
-              </a>
-            </div>
-            <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">
-                Smart Invest Hub
-              </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
-                Unlock smarter investing with our AI-powered robo-advisor with a
-                section where users can select their risk tolerance.
-              </p>
-              <div className="flex flex-wrap gap-[15px]">
-                {" "}
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  Vite
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  React
-                </p>
-                <p className=" text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
-                  TailwindCss
-                </p>
-              </div>
-              <a
-                href="https://smart-invest-hub.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline flex items-center gap-[10px] justify-center"
-              >
-                <CiLink className="text-3xl" />
-                <p>Link</p>{" "}
-              </a>
-            </div>
-          </div>
         </div>
       </div>
 
       {/* =============Section Six============== */}
       <div
         id="contact"
-        className="bg-[#1F2937] px-[5%] mt-[20%] py-[15%] text-[#fff] lg:text-[25px] lg:mt-[10%] lg:py-[10%]"
+        className="bg-[#fff] px-[5%] mt-[20%] py-[15%] text-[#] lg:text-[25px] lg:mt-[10%] lg:py-[10%]"
       >
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           Get in touch
@@ -760,12 +473,12 @@ function Page() {
           </p>
           <div className="flex justify-center items-center gap-[15px] font-semibold">
             <CgMail className="text-[24px]" />
-            <div ref={textRef}>dedayo16@gmail.com</div>
+            <div ref={textRef}>Olayinkaaliu2019@gmail.com</div>
             <RiFileCopyFill className="text-[20px]" onClick={handleCopyClick} />
           </div>
           <div className="flex justify-center items-center gap-[15px] font-semibold">
             <BsTelephone className="text-[24px]" />
-            <div ref={textRef}>+2349127563048</div>
+            <div ref={textRef}>+2349023139032</div>
             <RiFileCopyFill className="text-[20px]" onClick={handleCopyClick} />
           </div>
         </div>
@@ -782,7 +495,7 @@ function Page() {
         </a>
         <a
           className=""
-          href="https://www.linkedin.com/in/elijah-adeyeye-software-developer/"
+          href="https://ng.linkedin.com/in/aliu-oluwabunmi-42ab00235"
           target="_blank"
           rel="noreferrer"
         >
