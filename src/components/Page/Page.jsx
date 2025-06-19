@@ -97,23 +97,20 @@ function Page() {
               Curious about me? Here you have it:
             </p>
             <p className="text-[18px]">
-              I'm a passionate, self-proclaimed front-end developer who
-              specializes in full stack development (React.js & Node.js). I am
-              very enthusiastic about bringing the technical and visual aspects
-              of digital products to life. User experience, pixel perfect
-              design, and writing clear, readable, highly performant code
-              matters to me.
+              I am Olayimika Aliu, a passionate and driven individual with a
+              growing interest in tech. I began my journey at ITSkills Centre,
+              where I was trained in web development.
             </p>
             <p className="text-[18px]">
-              I began my journey as a web developer in 2020, and since then,
-              I've continued to grow and evolve as a developer, taking on new
-              challenges and learning the latest technologies along the way. I'm
-              building cutting-edge web applications using modern technologies
-              such as Next.js, TypeScript, Tailwindcss, and much more.
+              I&apos;ve worked as a WordPress Developer at Iksha, a tech school,
+              where I built and managed their official website—enhancing course
+              visibility and streamlining student registration.
             </p>
             <p className="text-[18px]">
-              One last thing, I'm available for freelance work, so feel free to
-              reach out and say hello! I promise I don't bite 😉
+              I specialize in WordPress, and I&apos;m currently learning
+              frontend development using tools like HTML, CSS, JavaScript,
+              React, and Node.js. I&apos;m passionate about using technology to
+              create meaningful impact and inspire growth.
             </p>
           </div>
         </div>
@@ -219,9 +216,13 @@ function Page() {
             <img
               className="w-[64px] h-[64px]"
               src="./wordpress.png"
-              alt="Figma"
+              alt="Wordpress"
             />
             <p>Wordpress</p>
+          </div>
+          <div className="items-center flex flex-col justify-center gap-3">
+            <img className="w-[64px] h-[64px]" src="./figma.png" alt="Figma" />
+            <p>Figma</p>
           </div>
         </div>
       </div>
@@ -240,108 +241,70 @@ function Page() {
         </p>
         <div className="lg:w-[60%] lg:mx-auto ">
           <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
-            <p className="font-bold text-[25px] text-[#14A800]">Rentree</p>
-            <p className="font- text-[18px] font-bold">Contract</p>
-            <p className="italic font-thin text-[14px]">
-              Sept 2024 - March 2025
-            </p>
-            <p className="font- text-[18px] font-semibold">
-              Front-end Engineer
-            </p>
+            <p className="font-bold text-[25px] text-[#14A800]">ITSkills</p>
+            <p className="font- text-[18px] font-bold">Student Intern</p>
+            <p className="italic font-thin text-[14px]">09/2022 - 06/2023</p>
+            <p className="font- text-[18px] font-semibold">Developer</p>
             <ul className="list-disc flex flex-col gap-[10px]">
               <li className="text-[14px]">
-                Developed complex UI interactions including tabbed navigation
-                with dynamic borders.
+                Gained hands-on experience in web development using HTML, CSS,
+                JavaScript, and WordPress.
               </li>
               <li className="text-[14px]">
-                Worked on a multi-step form flow with contextual navigation,
-                enabling smooth progression through components like Basic Info,
-                Property Setup, Photos, Pricing, and Legal Info.
-              </li>
-              <li className="text-[14px]">
-                Integrated Redux Toolkit (RTK) for global state management with
-                persistence, improving scalability and reducing boilerplate
-                compared to Context API.
-              </li>
-              <li className="text-[14px]">
-                Created reusable components and layout templates with
-                accessibility and responsiveness in mind, improving development
-                speed and UI consistency.
-              </li>
-              <li className="text-[14px]">
-                Collaborate with the backend developer to create Functional and
-                Responsive web projects and consume necessary API
-              </li>
-              <li className="text-[14px]">
-                Contributed to a shared GitHub organization repository,
-                practicing clean code principles, version control with Git, and
-                pull request workflows.
-              </li>
-            </ul>
-          </div>
-          <br />
-          <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
-            <p className="font-bold text-[25px] text-[#14A800]">AremxyPlug</p>
-            <p className="font- text-[18px] font-bold">Remote</p>
-            <p className="italic font-thin text-[14px]">
-              June 12 2023 - January 10 2024
-            </p>
-            <p className="font- text-[18px] font-semibold">
-              Front-end Developer
-            </p>
-            <ul className="list-disc flex flex-col gap-[10px]">
-              <li className="text-[14px]">
-                Built a Fintech, Telecom and Digital Service platform to develop
-                and provide innovative products and services that combine
-                financial technology with telecommunications technology
-              </li>
-              <li className="text-[14px]">
-                Design and update layouts to meet usability and performance
-                requirements.
-              </li>
-              <li className="text-[14px]">
-                Collaborate with team to create Functional and Responsive web
-                projects using React.js and Tailwind Css
-              </li>
-              <li className="text-[14px]">
-                Develop and maintain courteous and effective working
-                relationships.
-              </li>
-              <li className="text-[14px]">
-                Paid attention to detail while completing assignments.
-              </li>
-              <li className="text-[14px]">
-                Cultivate interpersonal skills by building positive
-                relationships with others.
+                Assisted in developing and updating websites for clients and
+                in-house projects.
               </li>
             </ul>
           </div>
           <br />
           <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
             <p className="font-bold text-[25px] text-[#14A800]">
-              ITSkillsCenter
+              Freelance Developer
             </p>
-            <p className="italic font-thin text-[14px]">
-              November 22 2020 - May 2023
-            </p>
+            {/* <p className="font- text-[18px] font-bold">Remote</p> */}
+            <p className="italic font-thin text-[14px]">10/23 - 01/25</p>
             <p className="font- text-[18px] font-semibold">
-              Software Developer
+              Front-end Developer
             </p>
             <ul className="list-disc flex flex-col gap-[10px]">
               <li className="text-[14px]">
-                Designed intuitive graphical user interfaces to improve user
-                experience.
+                Designed, developed, and maintained custom WordPress websites
+                for individual clients and a tech school platform.
               </li>
               <li className="text-[14px]">
-                Designed reusable and reliable code for use within distributed
-                cloud environments.
+                Customized themes and plugins to meet unique project
+                requirements.
               </li>
               <li className="text-[14px]">
-                Developed responsive software for desktop and mobile view.
+                Implemented responsive design and optimized performance to
+                enhance user experience.
               </li>
               <li className="text-[14px]">
-                Contributed ideas and suggestions in team meetings and delivered
-                updates on deadlines, designs, and enhancements.
+                Collaborated with design and content teams to ensure consistent
+                branding across all deliverables.
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
+            <p className="font-bold text-[25px] text-[#14A800]">Iksha</p>
+            <p className="italic font-thin text-[14px]">02/25 - 05/25</p>
+            <p className="font- text-[18px] font-semibold">Developer</p>
+            <ul className="list-disc flex flex-col gap-[10px]">
+              <li className="text-[14px]">
+                Designed, developed, and maintained custom WordPress websites
+                for clients and the company&apos;s tech school platform.
+              </li>
+              <li className="text-[14px]">
+                Customized themes and plugins to meet specific client needs.
+              </li>
+              <li className="text-[14px]">
+                Implemented responsive design and optimized website performance
+                for better user experience.
+              </li>
+              <li className="text-[14px]">
+                Collaborated with the design and content teams to ensure brand
+                consistency across all projects.
               </li>
             </ul>
           </div>
