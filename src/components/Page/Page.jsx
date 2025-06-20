@@ -94,7 +94,7 @@ function Page() {
           <div className="flex flex-col gap-[20px] lg:w-1/2">
             {" "}
             <p className="font-semibold text-[32px] lg:text-[40px] lg:my-[3%]">
-              Curious about me? Here you have it:
+              About Me
             </p>
             <p className="text-[18px]">
               I am Olayimika Aliu, a passionate and driven individual with a
