@@ -40,7 +40,7 @@ function Page() {
             <h1 className="text-textColor font-semibold text-[36px] lg:text-[50px]">
               Hi, I'm Olayinka &#128075;
             </h1>
-            <p className="text-[] text-justify lg:text-[20px]">
+            <p className="text-[] text- lg:text-[20px]">
               A passionate web developer with a growing focus on frontend
               technologies. I enjoy building clean, user-focused digital
               experiences using tools like HTML, CSS, JavaScript, React, and
@@ -76,7 +76,7 @@ function Page() {
 
       <div
         id="about"
-        className="bg-[#fff] py-[60px] text- px-[16px] text-justify lg:px-[6%]"
+        className="bg-[#fff] py-[60px] text- px-[16px] lg:px-[6%]"
       >
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           About me
@@ -336,7 +336,7 @@ function Page() {
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
               <p className="font-extrabold text-[18px] lg:text-[24px]">Iksha</p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
+              <p className="font-light lg:text-[20px]">
                 Iksha is a fast-growing tech school focused on equipping
                 beginners and professionals with digital skills in areas like
                 web development, design, and data. They needed a professional
@@ -388,7 +388,7 @@ function Page() {
               <p className="font-extrabold text-[18px] lg:text-[24px]">
                 Crayon Development
               </p>{" "}
-              <p className="font-light text-justify lg:text-[20px]">
+              <p className="font-lightlg:text-[20px]">
                 Crayon Development is a real estate company focused on providing
                 innovative, modern housing solutions in Nigeria. The brand
                 needed a functional and visually appealing website to showcase

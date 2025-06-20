@@ -21,14 +21,14 @@ function Navbar() {
           <div className="flex p-[8px] justify-between px-[16px] items-center h-[70px] pb-[]">
             <a href="/">
               {" "}
-              {/* <div className="text-bgColor1 cursive font-extrabold text-[27px] underline">
-                ADEYEYE
-              </div> */}
-              <img
+              <div className="text-bgColor1 cursive font-extrabold text-[27px] underline">
+                Olayinka Aliu
+              </div>
+              {/* <img
                 className="rounded-[10px] h-[70px] w-[60px]"
                 src="./logo513.png"
                 alt="project-one"
-              />
+              /> */}
             </a>
 
             <IoCloseSharp
@@ -75,14 +75,14 @@ function Navbar() {
         </div>
       )}
       <div className="sticky top-0 z-40 bg-bgColor1 h-[150px] flex justify-between px-[16px] items-center md:mx-[5%] lg:pt-[3%] lg:h-[200px]">
-        {/* <div className="text-white cursive font-extrabold text-[27px] underline lg:text-[45px]">
-          ADEYEYE
-        </div> */}
-        <img
+        <div className="text-white cursive font-extrabold text-[27px] underline lg:text-[45px]">
+          Olayinka Aliu
+        </div>
+        {/* <img
           className="rounded-[10px] h-[100px] w-[90px] lg:w-[130px] lg:h-[140px]"
           src="./logo513.png"
           alt="project-one"
-        />
+        /> */}
         <GiHamburgerMenu
           onClick={openSideBar}
           className="text-textColor h-[30px] w-[30px] md:hidden"
