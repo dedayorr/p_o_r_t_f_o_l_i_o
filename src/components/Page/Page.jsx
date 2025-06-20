@@ -230,7 +230,7 @@ function Page() {
       {/* ==========Section Four============= */}
       <div
         id="experience"
-        className="bg-[#fff] py-[60px] text-textColor px-[16px] text-justify flex flex-col gap-[20px]"
+        className="bg-[#fff] py-[60px] text-textColor px-[16px] flex flex-col gap-[20px]"
       >
         {" "}
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
